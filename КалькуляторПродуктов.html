@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru" class="translated-ltr">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор продуктов</title>
+    <link rel="stylesheet" href="/style/КалькуляторПродуктов.css">
+    
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.qhDXWpKopYk.L.W.O/am=CAM/d=0/rs=AN8SPfqeKn8wA30q4viup18yaci8udUjKQ/m=el_main_css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@400;700&family=Roboto&display=swap"
+        rel="stylesheet">
+        
+</head>
+<body>
+<div class="parent">
+    <div class="form">
+        <input class="name" placeholder="название">
+        <input class="price" placeholder="цена, руб.">
+		<input class="amount" placeholder="количество">
+		<input class="add" type="button" value="добавить">
+    </div>
+    <h2>Таблица продуктов:</h2>
+        <table class="table">
+		<tr>
+			<th>название</th>
+			<th>цена, руб.</th>
+			<th>кол-во</th>
+			<th>сумма, руб.</th>
+			<th>удалить</th>
+		</tr>
+	</table>
+    <div class="result">
+        общий итог: <span class="total">0</span> руб.
+    </div>
+</div>
+
+<script src="КалькуляторПродуктов.js"></script>
+</body>
+</html>
